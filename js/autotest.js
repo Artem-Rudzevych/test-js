@@ -1,12 +1,28 @@
-const array = [1, 2, 3, 4, 5];
+const array = ['data', 1, 2, 3, 6, 'mod'];
+// console.log(array.length);
+// function getExtremeElements(array) {
+//     // for (let i = 0; i < array.length; i += 1) {
+//     //     const first = i[0];
+//     //     const last = i.length;
+//     //     console.log(first[i]);
+//     // }
+// }
+// // Change code above this line
+
+// ЗАДАЧА: КРАЙНИЕ ЭЛЕМЕНТЫ МАССИВА
+
 function getExtremeElements(array) {
-  // Change code below this line
+    // Change code below this line
+    const myarray = [array[0], array[array.length - 1]];
+    // const first = array[0];
+    // const last = array[array.length - 1];
+    let message = '';
+    for (let i = 0; i <= array.length; i += 1) {
+        return myarray;
+        break;
+    }
 
-for(let i = 0; i < array.length; i+=1){
- const first = array[0];
-const last = array[array.length - 1];
- console.log(array)
+    // Change code above this line
 }
-
-  // Change code above this line
-}
+// getExtremeElements(array);
+console.log(getExtremeElements(array));

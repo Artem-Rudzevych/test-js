@@ -42,11 +42,32 @@
 
 // console.log(smallNumber)
 
-const friends = ['mama', 'papa', 'red', 'martin'];
-let string = '';
-for (const frend of friends) {
-    string += frend + ',';
-    
+// const friends = ['mama', 'papa', 'red', 'martin'];
+// let string = '';
+// for (const frend of friends) {
+//     string += frend + ',';
+
+// }
+// string = string.slice(0, string.length - 1);
+// console.log(string);
+
+// const string = friends.join(', ');
+// console.log(string);
+// console.log(friends);
+
+const string = 'JavaScript';
+const letters = string.split('');
+let invertedString = '';
+
+for (const letter of letters) {
+    // if (letter === letter.toLowerCase()) {
+    //     invertedString += letter.toUpperCase();
+    // } else {
+    //     invertedString += letter.toLowerCase();
+    // }
+    invertedString +=
+        letter === letter.toLowerCase()
+            ? letter.toUpperCase()
+            : letter.toLowerCase();
 }
-string = string.slice(0, string.length - 1);
-console.log(string);
+console.log(invertedString);
